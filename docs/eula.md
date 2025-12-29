@@ -6,6 +6,7 @@ The use of this installer is for personal use only.
 - Bornomala(Regular, Bold)
 - CascadiaCodeNF(Regular, Bold, Italic, BoldItalic)
 - CascadiaCodePL(Regular, Bold, Italic, BoldItalic)
+- July(Regular, Bold, Italic, BoldItalic)
 - Latin Modern Math
 - Material Symbols Rounded(Variable)
 - Noto Color Emoji
@@ -15,3 +16,4 @@ The use of this installer is for personal use only.
 - Noto Serif(Regular, Bold, Italic, BoldItalic)
 - Noto Serif Bengali(Regular, Bold)
 - OpenSymbol
+
