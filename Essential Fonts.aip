@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DOCUMENT Type="Advanced Installer" CreateVersion="22.2" version="22.4" Modules="simple" RootPath="." Language="en" Id="{E43B4AEF-C6D9-4B30-A60B-59F0C9049C1C}">
+<DOCUMENT Type="Advanced Installer" CreateVersion="22.2" version="23.3" Modules="simple" RootPath="." Language="en" Id="{E43B4AEF-C6D9-4B30-A60B-59F0C9049C1C}">
   <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
     <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
     <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_ADMIN_USER"/>
@@ -8,10 +8,10 @@
     <ROW Property="ARPCONTACT" Value="smsourov.bd@outlook.com"/>
     <ROW Property="ARPPRODUCTICON" Value="icons.exe" Type="8"/>
     <ROW Property="Manufacturer" Value="com.github.SMSourov"/>
-    <ROW Property="ProductCode" Value="1033:{E6EB3F54-6BAA-4314-A21D-2949B994D23A} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{4988245F-D2DC-41BE-BAF5-809690198AD4} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Essential Fonts"/>
-    <ROW Property="ProductVersion" Value="0.1.0" Options="32"/>
+    <ROW Property="ProductVersion" Value="0.4.0" Options="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{B0E168E4-8E6F-47DA-BCBE-C41608938623}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
@@ -36,7 +36,7 @@
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
     <ROW Component="AI_INSTALLPERUSER" ComponentId="{0983CE04-FB9F-452A-9009-9D0FCA352758}" Directory_="APPDIR" Attributes="260" KeyPath="AI_INSTALLPERUSER" Options="1"/>
     <ROW Component="APPDIR" ComponentId="{05A65F8F-8675-490A-B43F-648252A5D9E0}" Directory_="APPDIR" Attributes="0"/>
-    <ROW Component="BornomalaBold.ttf" ComponentId="{4AAE20FB-046F-4DAC-8DFE-3851CE5469CA}" Directory_="APPDIR" Attributes="0" Type="0"/>
+    <ROW Component="BornomalaBold.ttf" ComponentId="{8C614C1D-0EBA-4E74-AA02-28DC904B41B6}" Directory_="APPDIR" Attributes="0" Type="0"/>
     <ROW Component="ProductInformation" ComponentId="{ABC39936-8971-46C1-82E7-537187963DC3}" Directory_="APPDIR" Attributes="260" KeyPath="Version"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
@@ -50,16 +50,20 @@
     <ROW File="CascadiaCodeNFBoldItalic.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~2.TTF|CascadiaCodeNF-BoldItalic.ttf" Attributes="0" SourcePath="fonts\CascadiaCodeNF-BoldItalic.ttf" SelfReg="false"/>
     <ROW File="CascadiaCodeNFItalic.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~3.TTF|CascadiaCodeNF-Italic.ttf" Attributes="0" SourcePath="fonts\CascadiaCodeNF-Italic.ttf" SelfReg="false"/>
     <ROW File="CascadiaCodeNFRegular.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~4.TTF|CascadiaCodeNF-Regular.ttf" Attributes="0" SourcePath="fonts\CascadiaCodeNF-Regular.ttf" SelfReg="false"/>
-    <ROW File="CascadiaCodePLBold.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~5.TTF|CascadiaCodePL-Bold.ttf" Attributes="0" SourcePath="fonts\CascadiaCodePL-Bold.ttf" SelfReg="false"/>
-    <ROW File="CascadiaCodePLBoldItalic.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~6.TTF|CascadiaCodePL-BoldItalic.ttf" Attributes="0" SourcePath="fonts\CascadiaCodePL-BoldItalic.ttf" SelfReg="false"/>
-    <ROW File="CascadiaCodePLItalic.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~7.TTF|CascadiaCodePL-Italic.ttf" Attributes="0" SourcePath="fonts\CascadiaCodePL-Italic.ttf" SelfReg="false"/>
-    <ROW File="CascadiaCodePLRegular.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~8.TTF|CascadiaCodePL-Regular.ttf" Attributes="0" SourcePath="fonts\CascadiaCodePL-Regular.ttf" SelfReg="false"/>
+    <ROW File="CascadiaCodeNFSemiBold.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~5.TTF|CascadiaCodeNF-SemiBold.ttf" Attributes="0" SourcePath="fonts\CascadiaCodeNF-SemiBold.ttf" SelfReg="false"/>
+    <ROW File="CascadiaCodeNFSemiBoldItalic.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~6.TTF|CascadiaCodeNF-SemiBoldItalic.ttf" Attributes="0" SourcePath="fonts\CascadiaCodeNF-SemiBoldItalic.ttf" SelfReg="false"/>
+    <ROW File="CascadiaCodeNFSemiLight.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~7.TTF|CascadiaCodeNF-SemiLight.ttf" Attributes="0" SourcePath="fonts\CascadiaCodeNF-SemiLight.ttf" SelfReg="false"/>
+    <ROW File="CascadiaCodeNFSemiLightItalic.ttf" Component_="BornomalaBold.ttf" FileName="CASCAD~8.TTF|CascadiaCodeNF-SemiLightItalic.ttf" Attributes="0" SourcePath="fonts\CascadiaCodeNF-SemiLightItalic.ttf" SelfReg="false"/>
+    <ROW File="JulyBold.ttf" Component_="BornomalaBold.ttf" FileName="JULY-B~1.TTF|July-Bold.ttf" Attributes="0" SourcePath="fonts\July-Bold.ttf" SelfReg="false"/>
+    <ROW File="JulyBoldItalic.ttf" Component_="BornomalaBold.ttf" FileName="JULY-B~2.TTF|July-Bold-Italic.ttf" Attributes="0" SourcePath="fonts\July-Bold-Italic.ttf" SelfReg="false"/>
+    <ROW File="JulyItalic.ttf" Component_="BornomalaBold.ttf" FileName="JULY-I~1.TTF|July-Italic.ttf" Attributes="0" SourcePath="fonts\July-Italic.ttf" SelfReg="false"/>
+    <ROW File="JulyRegular.ttf" Component_="BornomalaBold.ttf" FileName="JULY-R~1.TTF|July-Regular.ttf" Attributes="0" SourcePath="fonts\July-Regular.ttf" SelfReg="false"/>
     <ROW File="latinmodernmath.otf" Component_="BornomalaBold.ttf" FileName="LATINM~1.OTF|latinmodern-math.otf" Attributes="0" SourcePath="fonts\latinmodern-math.otf" SelfReg="false"/>
+    <ROW File="MakoRegular.ttf" Component_="BornomalaBold.ttf" FileName="MAKO-R~1.TTF|Mako-Regular.ttf" Attributes="0" SourcePath="fonts\Mako-Regular.ttf" SelfReg="false"/>
     <ROW File="MaterialSymbolsRoundedFILLGRADopszwght.ttf" Component_="BornomalaBold.ttf" FileName="MATERI~1.TTF|MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf" Attributes="0" SourcePath="fonts\MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf" SelfReg="false"/>
     <ROW File="NotoColorEmojiRegular.ttf" Component_="BornomalaBold.ttf" FileName="NOTOCO~1.TTF|NotoColorEmoji-Regular.ttf" Attributes="0" SourcePath="fonts\NotoColorEmoji-Regular.ttf" SelfReg="false"/>
     <ROW File="NotoEmojiBold.ttf" Component_="BornomalaBold.ttf" FileName="NOTOEM~1.TTF|NotoEmoji-Bold.ttf" Attributes="0" SourcePath="fonts\NotoEmoji-Bold.ttf" SelfReg="false"/>
-    <ROW File="NotoEmojiLight.ttf" Component_="BornomalaBold.ttf" FileName="NOTOEM~2.TTF|NotoEmoji-Light.ttf" Attributes="0" SourcePath="fonts\NotoEmoji-Light.ttf" SelfReg="false"/>
-    <ROW File="NotoEmojiRegular.ttf" Component_="BornomalaBold.ttf" FileName="NOTOEM~3.TTF|NotoEmoji-Regular.ttf" Attributes="0" SourcePath="fonts\NotoEmoji-Regular.ttf" SelfReg="false"/>
+    <ROW File="NotoEmojiRegular.ttf" Component_="BornomalaBold.ttf" FileName="NOTOEM~2.TTF|NotoEmoji-Regular.ttf" Attributes="0" SourcePath="fonts\NotoEmoji-Regular.ttf" SelfReg="false"/>
     <ROW File="NotoSansBengaliBold.ttf" Component_="BornomalaBold.ttf" FileName="NOTOSA~1.TTF|NotoSansBengali-Bold.ttf" Attributes="0" SourcePath="fonts\NotoSansBengali-Bold.ttf" SelfReg="false"/>
     <ROW File="NotoSansBengaliRegular.ttf" Component_="BornomalaBold.ttf" FileName="NOTOSA~2.TTF|NotoSansBengali-Regular.ttf" Attributes="0" SourcePath="fonts\NotoSansBengali-Regular.ttf" SelfReg="false"/>
     <ROW File="NotoSansBold.ttf" Component_="BornomalaBold.ttf" FileName="NOTOSA~3.TTF|NotoSans-Bold.ttf" Attributes="0" SourcePath="fonts\NotoSans-Bold.ttf" SelfReg="false"/>
@@ -72,10 +76,10 @@
     <ROW File="NotoSerifBoldItalic.ttf" Component_="BornomalaBold.ttf" FileName="NOTOSE~4.TTF|NotoSerif-BoldItalic.ttf" Attributes="0" SourcePath="fonts\NotoSerif-BoldItalic.ttf" SelfReg="false"/>
     <ROW File="NotoSerifItalic.ttf" Component_="BornomalaBold.ttf" FileName="NOTOSE~5.TTF|NotoSerif-Italic.ttf" Attributes="0" SourcePath="fonts\NotoSerif-Italic.ttf" SelfReg="false"/>
     <ROW File="NotoSerifRegular.ttf" Component_="BornomalaBold.ttf" FileName="NOTOSE~6.TTF|NotoSerif-Regular.ttf" Attributes="0" SourcePath="fonts\NotoSerif-Regular.ttf" SelfReg="false"/>
-    <ROW File="opensymbol.ttf" Component_="BornomalaBold.ttf" FileName="OPENSY~1.TTF|opensymbol.ttf" Attributes="0" SourcePath="fonts\opensymbol.ttf" SelfReg="false"/>
+    <ROW File="NunitoSansVariableFont_YTLCopszwdthwght.ttf" Component_="BornomalaBold.ttf" FileName="NUNITO~1.TTF|NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf" Attributes="0" SourcePath="fonts\NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf" SelfReg="false"/>
+    <ROW File="OpenSymbol.ttf" Component_="BornomalaBold.ttf" FileName="OPENSY~1.TTF|OpenSymbol.ttf" Attributes="0" SourcePath="fonts\OpenSymbol.ttf" SelfReg="false"/>
     <ROW File="BokrorekhaBold.ttf" Component_="BornomalaBold.ttf" FileName="BOKROR~1.TTF|Bokrorekha-Bold.ttf" Attributes="0" SourcePath="fonts\Bokrorekha-Bold.ttf" SelfReg="false"/>
     <ROW File="BokrorekhaRegular.ttf" Component_="BornomalaBold.ttf" FileName="BOKROR~2.TTF|Bokrorekha-Regular.ttf" Attributes="0" SourcePath="fonts\Bokrorekha-Regular.ttf" SelfReg="false"/>
-    <ROW File="MakoRegular.ttf" Component_="BornomalaBold.ttf" FileName="MAKO-R~1.TTF|Mako-Regular.ttf" Attributes="0" SourcePath="fonts\Mako-Regular.ttf" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.AiPersistentPropComponent">
     <ROW Property="AI_INSTALLPERUSER" Registry="AI_INSTALLPERUSER" HklmSearch="AI_INSTALLPERUSER" HkcuSearch="AI_INSTALLPERUSER_1" Hklm64Search="AI_INSTALLPERUSER_2" Hkcu64Search="AI_INSTALLPERUSER_3"/>
@@ -84,7 +88,7 @@
     <ROW Action="AI_DetectSoftware" Sequence="151"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
-    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" SummInfoMetadata="Page Count:450" UseLargeSchema="true" MsiPackageType="x64"/>
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="builds" PackageFileName="[|ProductName]_[|ProductVersion]" Languages="en" InstallationType="4" SummInfoMetadata="Page Count:450" UseLargeSchema="true" MsiPackageType="x64"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
     <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
@@ -172,8 +176,8 @@
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
     <ROW Feature_="MainFeature" Component_="APPDIR"/>
     <ROW Feature_="MainFeature" Component_="ProductInformation"/>
-    <ROW Feature_="MainFeature" Component_="BornomalaBold.ttf"/>
     <ROW Feature_="MainFeature" Component_="AI_INSTALLPERUSER"/>
+    <ROW Feature_="MainFeature" Component_="BornomalaBold.ttf"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFontsComponent">
     <ROW File_="BornomalaBold.ttf"/>
@@ -182,15 +186,19 @@
     <ROW File_="CascadiaCodeNFBoldItalic.ttf"/>
     <ROW File_="CascadiaCodeNFItalic.ttf"/>
     <ROW File_="CascadiaCodeNFRegular.ttf"/>
-    <ROW File_="CascadiaCodePLBold.ttf"/>
-    <ROW File_="CascadiaCodePLBoldItalic.ttf"/>
-    <ROW File_="CascadiaCodePLItalic.ttf"/>
-    <ROW File_="CascadiaCodePLRegular.ttf"/>
+    <ROW File_="CascadiaCodeNFSemiBold.ttf"/>
+    <ROW File_="CascadiaCodeNFSemiBoldItalic.ttf"/>
+    <ROW File_="CascadiaCodeNFSemiLight.ttf"/>
+    <ROW File_="CascadiaCodeNFSemiLightItalic.ttf"/>
+    <ROW File_="JulyBold.ttf"/>
+    <ROW File_="JulyBoldItalic.ttf"/>
+    <ROW File_="JulyItalic.ttf"/>
+    <ROW File_="JulyRegular.ttf"/>
     <ROW File_="latinmodernmath.otf"/>
+    <ROW File_="MakoRegular.ttf"/>
     <ROW File_="MaterialSymbolsRoundedFILLGRADopszwght.ttf"/>
     <ROW File_="NotoColorEmojiRegular.ttf"/>
     <ROW File_="NotoEmojiBold.ttf"/>
-    <ROW File_="NotoEmojiLight.ttf"/>
     <ROW File_="NotoEmojiRegular.ttf"/>
     <ROW File_="NotoSansBengaliBold.ttf"/>
     <ROW File_="NotoSansBengaliRegular.ttf"/>
@@ -204,10 +212,10 @@
     <ROW File_="NotoSerifBoldItalic.ttf"/>
     <ROW File_="NotoSerifItalic.ttf"/>
     <ROW File_="NotoSerifRegular.ttf"/>
-    <ROW File_="opensymbol.ttf"/>
+    <ROW File_="NunitoSansVariableFont_YTLCopszwdthwght.ttf"/>
+    <ROW File_="OpenSymbol.ttf"/>
     <ROW File_="BokrorekhaBold.ttf"/>
     <ROW File_="BokrorekhaRegular.ttf"/>
-    <ROW File_="MakoRegular.ttf"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="icons.exe" SourcePath="icons\icons.ico" Index="0"/>
